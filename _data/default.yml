@@ -3,18 +3,14 @@ brand:
 menu-string: Menu
 
 nav:
-  - title: Services
-    url: '#services'
-  - title: Portfolio
-    url: '#portfolio'
-  - title: About
-    url: '#about'
-  - title: Team
-    url: '#team'
-  - title: Contact
-    url: '#contact'
+  - title: Palestrantes
+    url: '#speakers'
+  - title: Agenda
+    url: '#agenda'
+  - title: Organização
+    url: '#organization'
 
-copyright: Copyright &copy; Your Website 2018
+copyright: Copyright &copy; Capivara Conference 2018
 
 social-buttons:
   - icon: fa fa-twitter
@@ -27,7 +23,7 @@ social-buttons:
 quicklinks:
   - title: Privacy Policy
     url: '#'
-  - title: Terms of Use
+  - title: Termos de Uso
     url: '#'
 
 modal:
@@ -35,4 +31,4 @@ modal:
   client-string: 'Client: '
   category-string: 'Category: '
   close-icon: 'fa fa-times'
-  close-string: 'Close Project'
+  close-string: 'Fechar'
