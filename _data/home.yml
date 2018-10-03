@@ -48,36 +48,36 @@ organization:
   subheading: Feito com muio <3 pelos organizadores da Capivara Coders em Curitiba
   members:
     - name: Bruno Scrok Brunoro
-      role: CTO Banco Maré
+      role: Mobile e Web Developer
       img: img/team/1.jpg
       social-buttons:
         - icon: fa fa-twitter
-          url: "#" 
-        - icon: fa fa-facebook
-          url: "#"
+          url: "https://twitter.com/brunosbrunoro" 
+        - icon: fa fa-github
+          url: "https://github.com/brunosbrunoro"
         - icon: fa fa-linkedin
-          url: "#"
+          url: "https://www.linkedin.com/in/brunoscrokbrunoro/"
         
     - name: Matheus Donizete
       role: Web Developer
       img: img/team/2.jpg
       social-buttons:
         - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
+          url: "https://twitter.com/MathDonizete"
+        - icon: fa fa-github
+          url: "https://github.com/MatheusDonizete"
         - icon: fa fa-linkedin
-          url: "#"
+          url: "https://www.linkedin.com/in/matheusdonizete/"
 
     - name: William S. Rodriguez
       role: Microsoft MVP
       img: img/team/3.jpg
       social-buttons:
         - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
+          url: "https://twitter.com/willbuildapps"
+        - icon: fa fa-github
+          url: "https://github.com/willbuildapps"
         - icon: fa fa-linkedin
-          url: "#"
+          url: "https://www.linkedin.com/in/willbuildapps/"
 
   text: Temos como objetivo realizar encontros da comunidade e compartilhar conhecimento, sendo agnósticos de tecnologia, acreditando que todos tem algo a compartilhar.
