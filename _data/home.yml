@@ -7,42 +7,179 @@ intro:
 
 speakers:
   heading: Palestrantes
-  subheading: Em breve.
-  service:
-#    - icon: fa fa-shopping-cart
-#      heading: E-Commerce
-#      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-#    - icon: fa fa-laptop
-#      heading: Responsive Design
-#      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-#    - icon: fa fa-lock
-#      heading: Web Security
-#      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  members:
+    - name: Rafael Cruz      
+      img: img/speakers/rafael.jpg
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "https://twitter.com/rafaelcruz_net" 
+        - icon: fa fa-github
+          url: "https://github.com/rafaelcruz-net"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/rafaelcruzmvp"
+    
+    - name: Gustavo Bellini Bigardi      
+      img: https://pbs.twimg.com/profile_images/1046055481058488320/F5j_kQbX_400x400.jpg      
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "https://twitter.com/gustavobigardi" 
+        - icon: fa fa-github
+          url: "https://github.com/gustavobigardi"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/gbbigardi/"
+        - icon: fa fa-facebook
+          url: "https://www.facebook.com/gbbigardi"
+      
+    - name: Renato Jose Groffe   
+      img: https://mvp.microsoft.com/pt-br/PublicProfile/Photo/5002142      
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "https://twitter.com/renatogroff" 
+        - icon: fa fa-github
+          url: "https://github.com/renatogroffe"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/renatogroffe"
+        - icon: fa fa-facebook
+          url: "https://www.facebook.com/renatogroffe"
+
+    - name: Rafael Ferreira dos Santos
+      img: https://scontent.fvix1-1.fna.fbcdn.net/v/t1.0-9/35299851_2117365184958674_6540475725625950208_n.jpg?_nc_cat=111&oh=210c22f36e646116c7e26bbcae9662e4&oe=5C5509F4      
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "https://twitter.com/rsantosdev" 
+        - icon: fa fa-github
+          url: "https://github.com/rsantosdev/"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/rsantosdev"
+        - icon: fa fa-facebook
+          url: "https://www.facebook.com/rsantosdev"
+    
+    - name: Rodolfo Fadino
+      img: https://media.licdn.com/dms/image/C4D03AQHfV6-aEb5FRg/profile-displayphoto-shrink_200_200/0?e=1544659200&v=beta&t=zZVbDGhyZYnxG7PhAJoN8EkY37_BE0biCb2B52jgjnU      
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "https://twitter.com/rodolfofadino" 
+        - icon: fa fa-github
+          url: "https://github.com/rodolfofadino/"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/rodolfofadinojr"
+      
+    - name: Alexandre Santos Costa
+      img: https://scontent.fcwb2-2.fna.fbcdn.net/v/t1.0-9/34962563_1923879890956663_1100664396998246400_n.jpg?_nc_cat=109&_nc_ht=scontent.fcwb2-2.fna&oh=87f0ea13ac37f0c5104034bf01d00da1&oe=5C42F951      
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "https://twitter.com/magoolation" 
+        - icon: fa fa-github
+          url: "https://github.com/magoolation"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/magoolation"
+        - icon: fa fa-facebook
+          url: "https://www.facebook.com/magoolation"
+
+    - name: Israel Oliveira
+      img: https://raloliver.ninja/wp-content/uploads/2016/02/Israel-5.jpg      
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "https://twitter.com/raloliver" 
+        - icon: fa fa-github
+          url: "https://github.com/raloliver"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/raloliver/"
+        - icon: fa fa-facebook
+          url: "https://fb.com/raloliver"
+    
+    - name: Bruno Vercelino da Hora
+      img: img/speakers/bruno.jpeg      
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "http://twitter.com/brunovhora" 
+        - icon: fa fa-github
+          url: "https://github.com/brunodahora"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/brunodahora/"
+        - icon: fa fa-facebook
+          url: "https://www.facebook.com/brunovhora"
+
+    - name: Carlos dos Santos
+      img: http://carloscds.net/wp-content/uploads/2010/06/20180309_182615-300x225.jpg      
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "http://twitter.com/cdssoftware" 
+        - icon: fa fa-github
+          url: "https://github.com/carloscds"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/cdssoftware/"
+        - icon: fa fa-facebook
+          url: "https://www.facebook.com/carloscds"
+    
+    - name: Vinícius Bail Alonso
+      img: https://avatars1.githubusercontent.com/u/4620253?s=400&u=9aa77d57b71e1b4b6c47465e0ba854770e6e2485&v=4      
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "https://twitter.com/alonsoemacao" 
+        - icon: fa fa-github
+          url: "https://github.com/viniciusalonso"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/viniciusbalonso/"
+        - icon: fa fa-facebook
+          url: "https://www.facebook.com/vinicius.alonso.58"
 
 agenda:
   heading: Agenda
-  subheading: Em breve.
+  subheading: Sujeita a alterações sem aviso prévio
   timeline:
-#    - image: img/about/1.jpg
-#      date: 2009-2011
-#      title: Our Humble Beginnings
-#      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-#    - image: img/about/2.jpg
-#      date: March 2011
-#      title: An Agency is Born
-#      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-#    - image: img/about/3.jpg
-#      date: December 2012
-#      title: Transition to Full Service
-#      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-#    - image: img/about/4.jpg
-#      date: July 2014
-#      title: Phase Two Expansion
-#      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-#
-#  end1: Be Part
-#  end2: Of Our
-#  end3: Story!
+  - image: img/about/1.jpg
+    date: 05/11/2018
+    title: Criando APIs Seguras com JWT & Identity Server v4
+    text: Json Web Token é um Token de segurança que atua como container de informações sobre um determinado usuário. Ele pode ser transmitido facilmente entre o Servidor de Autorização, nesta seção vamos aprender o que é um Json Web Token, como utilizarmos e como configurar o Identity Server para ser o seu Security Token Service (STS)
+   
+  - image: img/about/2.jpg
+    date:  06/11/2018
+    title: Utilizando reconhecimento facial para segurança em aplicações
+    text: Nesta palestra vamos ver como utilizar os serviços cognitivos do Azure, mais especificamente o de detecção e identificação facial para validar questões de segurança como, se o usuário logado corresponde a pessoa utilizando o dispositivo, postura, se há mais pessoas olhando para sua tela, etc.
+
+  - image: img/about/3.jpg
+    date:  07/11/2018
+    title: Construindo APIs REST escaláveis com Docker e o Microsoft Azure
+    text: Saiba nesta apresentação como o Azure Web Apps for Containers e o AKS (Azure Kubernetes Service) podem simplificar a implementação de APIs REST escaláveis na nuvem, assegurando com isto uma alta disponibilidade e uma excelente performance em suas aplicações.
+
+  - image: img/about/4.jpg
+    date:  08/11/2018
+    title: Containers + App Services - Uma combinação simples e poderosa
+    text: Nessa palestra voce irá aprender como usar conteiners e todas as facilidades do App Service
+
+  - image: img/about/5.jpg
+    date:  09/11/2018
+    title: Middlewares no .NET CORE
+    text: Veja nesta apresentação como criar e trabalhar com  middlewares com .NET Core. Conheça todo o poder da extensibilidade e crie middlewares  que são a base do .NET Core e vão ajudar muito no seu dia a dia.
+  
+  - image: img/about/1.jpg
+    date: 12/11/2018
+    title: O dia-a-dia de um desenvolvedor com deficiencia visual
+    text: Nesta palestra irei compartilhar meu cotidiano como desenvolvedor apresentando ferramentas e discutindo a importancia da acessibilidade e inclusão 
+   
+  - image: img/about/2.jpg
+    date:  13/11/2018
+    title: Como Crescer Rápido e Hackear a Carreira
+    text: "OBJETIVOS: Direcionar nas possibilidades de conseguir um emprego rápido dentro de um cenário de mudanças constantes, orientar na definição do que realmente é importante pra vocês, esclarecer o que são soft skills e como você pode aprimorar o relacionamento com seres humanos."
+
+  - image: img/about/3.jpg
+    date:  14/11/2018
+    title: Leve seu código JS para outro nível com técnicas de programação funcional
+    text: Uma das melhores (ou piores :D) características do Javascript é o fato dele ser uma linguagem multi-paradigma permitindo que usemos o melhor de todos os mundos. O conceito de programação funcional é bem antigo mas tem se tornado cada vez mais popular com linguagens modernas como Elixir ou Clojure. Veremos nesta palestra como aplicar esses conceitos de linguagem funcional (como funções puras, composição e em especial imutabilidade usando o Immutable.js) em nossos códigos javascript para melhorá-los e levá-los para outro nível.
+
+  - image: img/about/4.jpg
+    date:  15/11/2018
+    title: Criando um pipeline de build no Azure DevOps
+    text: Como posso trabalhar com o AzureDevOps (antigo VSTS) e criar um fluxo de build para minha aplicação, independente da linguagem em que ela está desenvolvida
+
+  - image: img/about/5.jpg
+    date:  16/11/2018
+    title: Entendendo os famosos Test Doubles
+    text: "Muito provavelmente você já precisou \"mocar\" algo enquanto estava escrevendo seus testes. Esse jargão é muito utilizado entre os desenvolvedores de software, porém, qual seria o conceito por trás de utilizar um mock object? Test doubles é um nome genérico para os famosos: dummies, spies, fake, stub e mock. Nessa palestra vamos entender como podemos utilizar cada um deles para tirar proveito de nossos testes."
+
+  end1: "#CAPI"
+  end2: CONF
 
 organization:
   heading: Organização
