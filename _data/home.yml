@@ -5,11 +5,16 @@ intro:
   btn: Call4Papers
   btn2: Inscreva-se
 
+about:
+  title: Sobre o Evento
+  text: O CapiConf que você já conhece, seguindo a mesma linha de ser agnóstico de tecnologia e promovendo o compartilhamento de conhecimento para todos, agora em versão Online, acontecendo de segunda sexta,sempre a partir das 21h. Não deixe de participar deste evento gratuito, repleto de ótimas palestras de especialistas espalhados pelo Brasil.
+
 speakers:
   heading: Palestrantes
   members:
     - name: Rafael Cruz      
       img: img/speakers/rafael.jpg
+      role: MVP, MCT, MBA
       social-buttons:
         - icon: fa fa-twitter
           url: "https://twitter.com/rafaelcruz_net" 
@@ -18,20 +23,22 @@ speakers:
         - icon: fa fa-linkedin
           url: "https://www.linkedin.com/in/rafaelcruzmvp"
     
-    - name: Gustavo Bellini Bigardi      
-      img: https://pbs.twimg.com/profile_images/1046055481058488320/F5j_kQbX_400x400.jpg      
+    - name: Cleiton Felipe de Moraes
+      img: https://avatars3.githubusercontent.com/u/4966736?s=400&u=b56e3c017dededfff2b427cfd455b98dfc467163&v=4
+      role: Software Developer na Grupo GFT
       social-buttons:
         - icon: fa fa-twitter
-          url: "https://twitter.com/gustavobigardi" 
+          url: "https://twitter.com/cleiton_felipe" 
         - icon: fa fa-github
-          url: "https://github.com/gustavobigardi"
+          url: "https://github.com/cleitonfelipe"
         - icon: fa fa-linkedin
-          url: "https://www.linkedin.com/in/gbbigardi/"
+          url: "https://www.linkedin.com/in/cleiton-felipe-moraes-47555720/"
         - icon: fa fa-facebook
-          url: "https://www.facebook.com/gbbigardi"
+          url: "https://www.facebook.com/cleitonfelipedemoraes"
       
     - name: Renato Jose Groffe   
       img: https://mvp.microsoft.com/pt-br/PublicProfile/Photo/5002142      
+      role: Software Engineer, Microsoft MVP, MTAC
       social-buttons:
         - icon: fa fa-twitter
           url: "https://twitter.com/renatogroff" 
@@ -44,6 +51,7 @@ speakers:
 
     - name: Rafael Ferreira dos Santos
       img: https://scontent.fvix1-1.fna.fbcdn.net/v/t1.0-9/35299851_2117365184958674_6540475725625950208_n.jpg?_nc_cat=111&oh=210c22f36e646116c7e26bbcae9662e4&oe=5C5509F4      
+      role: Cloud Architect / CTO / Microsoft MVP
       social-buttons:
         - icon: fa fa-twitter
           url: "https://twitter.com/rsantosdev" 
@@ -56,6 +64,7 @@ speakers:
     
     - name: Rodolfo Fadino
       img: https://media.licdn.com/dms/image/C4D03AQHfV6-aEb5FRg/profile-displayphoto-shrink_200_200/0?e=1544659200&v=beta&t=zZVbDGhyZYnxG7PhAJoN8EkY37_BE0biCb2B52jgjnU      
+      role: Arquiteto de Soluções
       social-buttons:
         - icon: fa fa-twitter
           url: "https://twitter.com/rodolfofadino" 
@@ -66,18 +75,33 @@ speakers:
       
     - name: Alexandre Santos Costa
       img: https://scontent.fcwb2-2.fna.fbcdn.net/v/t1.0-9/34962563_1923879890956663_1100664396998246400_n.jpg?_nc_cat=109&_nc_ht=scontent.fcwb2-2.fna&oh=87f0ea13ac37f0c5104034bf01d00da1&oe=5C42F951      
+      role: Master Software Engineer na ArcTouch 
       social-buttons:
         - icon: fa fa-twitter
           url: "https://twitter.com/magoolation" 
         - icon: fa fa-github
           url: "https://github.com/magoolation"
         - icon: fa fa-linkedin
-          url: "https://www.linkedin.com/in/magoolation"
+          url: "https://www.linkedin.com/in/alexandre-santos-costa"
         - icon: fa fa-facebook
           url: "https://www.facebook.com/magoolation"
+    
+    - name: Carlos dos Santos
+      img: http://carloscds.net/wp-content/uploads/2010/06/20180309_182615-300x225.jpg      
+      role: CIO CDS Software
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "http://twitter.com/cdssoftware" 
+        - icon: fa fa-github
+          url: "https://github.com/carloscds"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/cdssoftware/"
+        - icon: fa fa-facebook
+          url: "https://www.facebook.com/carloscds"
 
     - name: Israel Oliveira
-      img: https://raloliver.ninja/wp-content/uploads/2016/02/Israel-5.jpg      
+      img: http://raloliver.ninja/wp-content/uploads/2017/11/cropped-Israel-10.jpg
+      role: Frontend Web Developer
       social-buttons:
         - icon: fa fa-twitter
           url: "https://twitter.com/raloliver" 
@@ -90,6 +114,7 @@ speakers:
     
     - name: Bruno Vercelino da Hora
       img: img/speakers/bruno.jpeg      
+      role: Desenvolvedor na Pipefy
       social-buttons:
         - icon: fa fa-twitter
           url: "http://twitter.com/brunovhora" 
@@ -100,20 +125,22 @@ speakers:
         - icon: fa fa-facebook
           url: "https://www.facebook.com/brunovhora"
 
-    - name: Carlos dos Santos
-      img: http://carloscds.net/wp-content/uploads/2010/06/20180309_182615-300x225.jpg      
+    - name: Gustavo Bellini Bigardi      
+      img: https://pbs.twimg.com/profile_images/1046055481058488320/F5j_kQbX_400x400.jpg      
+      role: 
       social-buttons:
         - icon: fa fa-twitter
-          url: "http://twitter.com/cdssoftware" 
+          url: "https://twitter.com/gustavobigardi" 
         - icon: fa fa-github
-          url: "https://github.com/carloscds"
+          url: "https://github.com/gustavobigardi"
         - icon: fa fa-linkedin
-          url: "https://www.linkedin.com/in/cdssoftware/"
+          url: "https://www.linkedin.com/in/gbbigardi/"
         - icon: fa fa-facebook
-          url: "https://www.facebook.com/carloscds"
+          url: "https://www.facebook.com/gbbigardi"
     
     - name: Vinícius Bail Alonso
       img: https://avatars1.githubusercontent.com/u/4620253?s=400&u=9aa77d57b71e1b4b6c47465e0ba854770e6e2485&v=4      
+      role: 
       social-buttons:
         - icon: fa fa-twitter
           url: "https://twitter.com/alonsoemacao" 
@@ -129,52 +156,57 @@ agenda:
   subheading: Sujeita a alterações sem aviso prévio
   timeline:
   - image: img/about/1.jpg
-    date: 05/11/2018
+    date: 05/11/2018 às 21h
     title: Criando APIs Seguras com JWT & Identity Server v4
     text: Json Web Token é um Token de segurança que atua como container de informações sobre um determinado usuário. Ele pode ser transmitido facilmente entre o Servidor de Autorização, nesta seção vamos aprender o que é um Json Web Token, como utilizarmos e como configurar o Identity Server para ser o seu Security Token Service (STS)
    
   - image: img/about/2.jpg
-    date:  06/11/2018
-    title: Utilizando reconhecimento facial para segurança em aplicações
-    text: Nesta palestra vamos ver como utilizar os serviços cognitivos do Azure, mais especificamente o de detecção e identificação facial para validar questões de segurança como, se o usuário logado corresponde a pessoa utilizando o dispositivo, postura, se há mais pessoas olhando para sua tela, etc.
+    date:  06/11/2018 às 21h
+    title: Minha app com analise de sentimentos, pode isso?
+    text: Nesta talk vou estar apresentando como adicionar análises de Sentimento em uma app Android desenvolvida em Xamarin, demostrando qual biblioteca utilizar e porque fazer isso.
 
   - image: img/about/3.jpg
-    date:  07/11/2018
+    date:  07/11/2018 às 21h
     title: Construindo APIs REST escaláveis com Docker e o Microsoft Azure
     text: Saiba nesta apresentação como o Azure Web Apps for Containers e o AKS (Azure Kubernetes Service) podem simplificar a implementação de APIs REST escaláveis na nuvem, assegurando com isto uma alta disponibilidade e uma excelente performance em suas aplicações.
 
   - image: img/about/4.jpg
-    date:  08/11/2018
+    date:  08/11/2018 às 21h
     title: Containers + App Services - Uma combinação simples e poderosa
     text: Nessa palestra voce irá aprender como usar conteiners e todas as facilidades do App Service
 
   - image: img/about/5.jpg
-    date:  09/11/2018
+    date:  09/11/2018 às 21h
     title: Middlewares no .NET CORE
     text: Veja nesta apresentação como criar e trabalhar com  middlewares com .NET Core. Conheça todo o poder da extensibilidade e crie middlewares  que são a base do .NET Core e vão ajudar muito no seu dia a dia.
   
   - image: img/about/1.jpg
-    date: 12/11/2018
+    date: 12/11/2018 às 21h
     title: O dia-a-dia de um desenvolvedor com deficiencia visual
     text: Nesta palestra irei compartilhar meu cotidiano como desenvolvedor apresentando ferramentas e discutindo a importancia da acessibilidade e inclusão 
+  
+  - image: img/about/4.jpg
+    date:  12/11/2018 às 22h
+    title: Criando um pipeline de build no Azure DevOps
+    text: Como posso trabalhar com o AzureDevOps (antigo VSTS) e criar um fluxo de build para minha aplicação, independente da linguagem em que ela está desenvolvida
    
   - image: img/about/2.jpg
-    date:  13/11/2018
+    date:  13/11/2018 às 21h
     title: Como Crescer Rápido e Hackear a Carreira
     text: "OBJETIVOS: Direcionar nas possibilidades de conseguir um emprego rápido dentro de um cenário de mudanças constantes, orientar na definição do que realmente é importante pra vocês, esclarecer o que são soft skills e como você pode aprimorar o relacionamento com seres humanos."
 
   - image: img/about/3.jpg
-    date:  14/11/2018
+    date:  14/11/2018 às 21h
     title: Leve seu código JS para outro nível com técnicas de programação funcional
-    text: Uma das melhores (ou piores :D) características do Javascript é o fato dele ser uma linguagem multi-paradigma permitindo que usemos o melhor de todos os mundos. O conceito de programação funcional é bem antigo mas tem se tornado cada vez mais popular com linguagens modernas como Elixir ou Clojure. Veremos nesta palestra como aplicar esses conceitos de linguagem funcional (como funções puras, composição e em especial imutabilidade usando o Immutable.js) em nossos códigos javascript para melhorá-los e levá-los para outro nível.
-
-  - image: img/about/4.jpg
-    date:  15/11/2018
-    title: Criando um pipeline de build no Azure DevOps
-    text: Como posso trabalhar com o AzureDevOps (antigo VSTS) e criar um fluxo de build para minha aplicação, independente da linguagem em que ela está desenvolvida
-
+    text: Uma das melhores (ou piores :D) características do Javascript é o fato dele ser uma linguagem multi-paradigma permitindo que usemos o melhor de todos os mundos. O conceito de programação funcional é bem antigo mas tem se tornado cada vez mais popular com linguagens modernas como Elixir ou Clojure. Veremos nesta palestra como aplicar esses conceitos de linguagem funcional (como funções puras, composição e em especial imutabilidade usando o Immutable.js) em nossos códigos javascript para melhorá-los e levá-los para outro nível. 
+  
   - image: img/about/5.jpg
-    date:  16/11/2018
+    date:  15/11/2018 as 21h
+    title: Utilizando reconhecimento facial para segurança em aplicações
+    text: Nesta palestra vamos ver como utilizar os serviços cognitivos do Azure, mais especificamente o de detecção e identificação facial para validar questões de segurança como, se o usuário logado corresponde a pessoa utilizando o dispositivo, postura, se há mais pessoas olhando para sua tela, etc.
+
+  - image: img/about/1.jpg
+    date:  16/11/2018 às 21h
     title: Entendendo os famosos Test Doubles
     text: "Muito provavelmente você já precisou \"mocar\" algo enquanto estava escrevendo seus testes. Esse jargão é muito utilizado entre os desenvolvedores de software, porém, qual seria o conceito por trás de utilizar um mock object? Test doubles é um nome genérico para os famosos: dummies, spies, fake, stub e mock. Nessa palestra vamos entender como podemos utilizar cada um deles para tirar proveito de nossos testes."
 

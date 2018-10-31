@@ -3,23 +3,37 @@ layout: default
 ---
 {%- assign assets_path = "assets/" -%}
 {%- if site.assets_path -%}
-  {%- assign assets_path = site.assets_path -%}
+{%- assign assets_path = site.assets_path -%}
 {%- endif -%}
-    {% assign ws = '' %}
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">{{ site.data.home.intro.lead-in }}</div>          
-          <div class="intro-heading text-uppercase">{{ site.data.home.intro.heading }}</div>
-          <div class="intro-lead-in">{{ site.data.home.intro.lead-in-time }}</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" target="blank" href="https://www.sympla.com.br/capiconf-online__376394">{{ site.data.home.intro.btn2 }}</a>
-        </div>
-      </div>
-    </header>
+{% assign ws = '' %}
+<!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">{{ site.data.home.intro.lead-in }}</div>
+      <div class="intro-heading text-uppercase">{{ site.data.home.intro.heading }}</div>
+      <div class="intro-lead-in">{{ site.data.home.intro.lead-in-time }}</div>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" target="blank" href="https://www.sympla.com.br/capiconf-online__376394">{{
+        site.data.home.intro.btn2 }}</a>
+    </div>
+  </div>
+</header>
 
-    <!-- speakers -->
-    <!--section id="speakers">
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ site.data.home.about.title }}</h2>
+        <p class="large text-muted text-center">
+          {{ site.data.home.about.text }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- speakers -->
+<!--section id="speakers">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -44,15 +58,15 @@ layout: default
       </div>
     </section-->
 
-    <!-- speakers Grid -->
-    <section class="bg-light" id="speakers">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.speakers.heading }}</h2>            
-          </div>
-        </div>
-        <!--div class="row">
+<!-- speakers Grid -->
+<section class="bg-light" id="speakers">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.home.speakers.heading }}</h2>
+      </div>
+    </div>
+    <!--div class="row">
           {%- for project in site.projects -%}
           {% assign ws = '' %}
           <div class="col-md-4 col-sm-6 speakers-item">
@@ -73,116 +87,116 @@ layout: default
         {% assign ws = '' %}
         </div>
       </div-->
-      <div class="row">
-        {%- for member in site.data.home.speakers.members -%}
-        {% assign ws = '' %}
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="{{ member.img }}" alt="">
-            <img class="mx-auto rounded-circle" src="{{ assets_path }}{{ member.img }}" alt="">
-            <h4>{{ member.name }}</h4>
-            <p class="text-muted">{{ member.date }}</p>
-            <ul class="list-inline social-buttons">
-              {%- for sm in member.social-buttons -%}
-              {% assign ws = '' %}
-              <li class="list-inline-item">
-                <a href="{{ sm.url }}">
-                  <i class="{{ sm.icon }}"></i>
-                </a>
-              </li>
-              {%- endfor -%}
-            {% assign ws = '' %}
-            </ul>
-          </div>
-        </div>
-        {%- endfor -%}
+    <div class="row">
+      {%- for member in site.data.home.speakers.members -%}
       {% assign ws = '' %}
-      </div>
-    </section>
-    
-    <section id="agenda">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.agenda.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.home.agenda.subheading  }}</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              {%- for time in site.data.home.agenda.timeline -%}
-              {% assign ws = '' %}
-              <li{% cycle '', ' class="timeline-inverted"' %}>
-                <div class="timeline-image">
-                  <img style="height: 100%;" class="rounded-circle img-fluid" src="{{ assets_path }}{{ time.image }}" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>{{ time.date }}</h4>
-                    <h4 class="subheading">{{ time.title }}</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">{{ time.text  }}</p>
-                  </div>
-                </div>
-              </li>
-              {%- endfor -%}
-              {% assign ws = '' %}
-              <li class="timeline-inverted">
-                <div style="justify-content: center;display: flex;align-items: center;" class="timeline-image">
-                  <h3>{{ site.data.home.agenda.end1 }}
-                    <br>{{ site.data.home.agenda.end2 }}</h3>
-                </div>
-              </li>
-            </ul>
-          </div>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="{{ member.img }}" alt="">
+          <img class="mx-auto rounded-circle" src="{{ assets_path }}{{ member.img }}" alt="">
+          <h4>{{ member.name }}</h4>
+          <p class="text-muted">{{ member.role }}</p>
+          <ul class="list-inline social-buttons">
+            {%- for sm in member.social-buttons -%}
+            {% assign ws = '' %}
+            <li class="list-inline-item">
+              <a href="{{ sm.url }}">
+                <i class="{{ sm.icon }}"></i>
+              </a>
+            </li>
+            {%- endfor -%}
+            {% assign ws = '' %}
+          </ul>
         </div>
       </div>
-    </section>
+      {%- endfor -%}
+      {% assign ws = '' %}
+    </div>
+</section>
 
-    <!-- organization -->
-    <section class="bg-light" id="organization">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.organization.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.home.organization.subheading }}</h3>
-          </div>
-        </div>
-        <div class="row">
-          {%- for member in site.data.home.organization.members -%}
+<section id="agenda">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.home.agenda.heading }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.home.agenda.subheading }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          {%- for time in site.data.home.agenda.timeline -%}
           {% assign ws = '' %}
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="{{ assets_path }}{{ member.img }}" alt="">
-              <h4>{{ member.name }}</h4>
-              <p class="text-muted">{{ member.role }}</p>
-              <ul class="list-inline social-buttons">
-                {%- for sm in member.social-buttons -%}
-                {% assign ws = '' %}
-                <li class="list-inline-item">
-                  <a href="{{ sm.url }}">
-                    <i class="{{ sm.icon }}"></i>
-                  </a>
-                </li>
-                {%- endfor -%}
-              {% assign ws = '' %}
-              </ul>
+          <li {% cycle '' , ' class="timeline-inverted"' %}>
+            <div class="timeline-image">
+              <img style="height: 100%;" class="rounded-circle img-fluid" src="{{ assets_path }}{{ time.image }}" alt="">
             </div>
-          </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>{{ time.date }}</h4>
+                <h4 class="subheading">{{ time.title }}</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">{{ time.text }}</p>
+              </div>
+            </div>
+          </li>
           {%- endfor -%}
-        {% assign ws = '' %}
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">{{ site.data.home.organization.text }}</p>
-          </div>
+          {% assign ws = '' %}
+          <li class="timeline-inverted">
+            <div style="justify-content: center;display: flex;align-items: center;" class="timeline-image">
+              <h3>{{ site.data.home.agenda.end1 }}
+                <br>{{ site.data.home.agenda.end2 }}</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- organization -->
+<section class="bg-light" id="organization">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.home.organization.heading }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.home.organization.subheading }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      {%- for member in site.data.home.organization.members -%}
+      {% assign ws = '' %}
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="{{ assets_path }}{{ member.img }}" alt="">
+          <h4>{{ member.name }}</h4>
+          <p class="text-muted">{{ member.role }}</p>
+          <ul class="list-inline social-buttons">
+            {%- for sm in member.social-buttons -%}
+            {% assign ws = '' %}
+            <li class="list-inline-item">
+              <a href="{{ sm.url }}">
+                <i class="{{ sm.icon }}"></i>
+              </a>
+            </li>
+            {%- endfor -%}
+            {% assign ws = '' %}
+          </ul>
         </div>
       </div>
-    </section>
+      {%- endfor -%}
+      {% assign ws = '' %}
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <p class="large text-muted">{{ site.data.home.organization.text }}</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Clients 
+<!-- Clients 
     <section-- class="py-5">
       <div class="container">
         <div class="row">
@@ -198,4 +212,3 @@ layout: default
         </div>
       </div>
     </section-->
-
