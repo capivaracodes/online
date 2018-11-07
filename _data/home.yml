@@ -37,7 +37,7 @@ speakers:
           url: "https://www.facebook.com/cleitonfelipedemoraes"
       
     - name: Renato Jose Groffe   
-      img: https://mvp.microsoft.com/pt-br/PublicProfile/Photo/5002142      
+      img: https://pbs.twimg.com/profile_images/437025596736946177/Y-jKqEvt_400x400.png      
       role: Software Engineer, Microsoft MVP, MTAC
       social-buttons:
         - icon: fa fa-twitter
@@ -227,18 +227,7 @@ agenda:
 organization:
   heading: Organização
   subheading: Feito com muio <3 pelos organizadores da Capivara Coders em Curitiba
-  members:
-    # - name: Bruno Scrok Brunoro
-    #   role: Mobile e Web Developer
-    #   img: img/team/1.jpg
-    #   social-buttons:
-    #     - icon: fa fa-twitter
-    #       url: "https://twitter.com/brunosbrunoro" 
-    #     - icon: fa fa-github
-    #       url: "https://github.com/brunosbrunoro"
-    #     - icon: fa fa-linkedin
-    #       url: "https://www.linkedin.com/in/brunoscrokbrunoro/"
-        
+  members:    
     - name: Matheus Donizete
       role: Web Developer
       img: img/team/2.jpg
