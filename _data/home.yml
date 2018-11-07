@@ -127,7 +127,7 @@ speakers:
 
     - name: Gustavo Bellini Bigardi      
       img: https://pbs.twimg.com/profile_images/1046055481058488320/F5j_kQbX_400x400.jpg      
-      role: 
+      role: MCSA Web Applications
       social-buttons:
         - icon: fa fa-twitter
           url: "https://twitter.com/gustavobigardi" 
@@ -140,7 +140,7 @@ speakers:
     
     - name: Vinícius Bail Alonso
       img: https://avatars1.githubusercontent.com/u/4620253?s=400&u=9aa77d57b71e1b4b6c47465e0ba854770e6e2485&v=4      
-      role: 
+      role: Engenheiro de Software na CompuFácil
       social-buttons:
         - icon: fa fa-twitter
           url: "https://twitter.com/alonsoemacao" 
@@ -158,56 +158,67 @@ agenda:
   - image: img/about/1.jpg
     date: 05/11/2018 às 21h
     title: Criando APIs Seguras com JWT & Identity Server v4
+    subtitle: Rafael Cruz          
     text: Json Web Token é um Token de segurança que atua como container de informações sobre um determinado usuário. Ele pode ser transmitido facilmente entre o Servidor de Autorização, nesta seção vamos aprender o que é um Json Web Token, como utilizarmos e como configurar o Identity Server para ser o seu Security Token Service (STS)
    
   - image: img/about/2.jpg
     date:  06/11/2018 às 21h
     title: Minha app com analise de sentimentos, pode isso?
+    subtitle: Cleiton Felipe de Moraes
     text: Nesta talk vou estar apresentando como adicionar análises de Sentimento em uma app Android desenvolvida em Xamarin, demostrando qual biblioteca utilizar e porque fazer isso.
 
   - image: img/about/3.jpg
     date:  07/11/2018 às 21h
     title: Construindo APIs REST escaláveis com Docker e o Microsoft Azure
+    subtitle: Renato Jose Groffe   
     text: Saiba nesta apresentação como o Azure Web Apps for Containers e o AKS (Azure Kubernetes Service) podem simplificar a implementação de APIs REST escaláveis na nuvem, assegurando com isto uma alta disponibilidade e uma excelente performance em suas aplicações.
 
   - image: img/about/4.jpg
     date:  08/11/2018 às 21h
     title: Containers + App Services - Uma combinação simples e poderosa
+    subtitle: Rafael Ferreira dos Santos
     text: Nessa palestra voce irá aprender como usar conteiners e todas as facilidades do App Service
 
   - image: img/about/5.jpg
     date:  09/11/2018 às 21h
     title: Middlewares no .NET CORE
+    subtitle: Rodolfo Fadino
     text: Veja nesta apresentação como criar e trabalhar com  middlewares com .NET Core. Conheça todo o poder da extensibilidade e crie middlewares  que são a base do .NET Core e vão ajudar muito no seu dia a dia.
   
   - image: img/about/1.jpg
     date: 12/11/2018 às 21h
     title: O dia-a-dia de um desenvolvedor com deficiencia visual
+    subtitle: Alexandre Santos Costa
     text: Nesta palestra irei compartilhar meu cotidiano como desenvolvedor apresentando ferramentas e discutindo a importancia da acessibilidade e inclusão 
   
   - image: img/about/4.jpg
     date:  12/11/2018 às 22h
     title: Criando um pipeline de build no Azure DevOps
+    subtitle: Carlos dos Santos
     text: Como posso trabalhar com o AzureDevOps (antigo VSTS) e criar um fluxo de build para minha aplicação, independente da linguagem em que ela está desenvolvida
    
   - image: img/about/2.jpg
     date:  13/11/2018 às 21h
     title: Como Crescer Rápido e Hackear a Carreira
+    subtitle: Israel Oliveira
     text: "OBJETIVOS: Direcionar nas possibilidades de conseguir um emprego rápido dentro de um cenário de mudanças constantes, orientar na definição do que realmente é importante pra vocês, esclarecer o que são soft skills e como você pode aprimorar o relacionamento com seres humanos."
 
   - image: img/about/3.jpg
     date:  14/11/2018 às 21h
     title: Leve seu código JS para outro nível com técnicas de programação funcional
+    subtitle: Bruno Vercelino da Hora
     text: Uma das melhores (ou piores :D) características do Javascript é o fato dele ser uma linguagem multi-paradigma permitindo que usemos o melhor de todos os mundos. O conceito de programação funcional é bem antigo mas tem se tornado cada vez mais popular com linguagens modernas como Elixir ou Clojure. Veremos nesta palestra como aplicar esses conceitos de linguagem funcional (como funções puras, composição e em especial imutabilidade usando o Immutable.js) em nossos códigos javascript para melhorá-los e levá-los para outro nível. 
   
   - image: img/about/5.jpg
     date:  15/11/2018 as 21h
     title: Utilizando reconhecimento facial para segurança em aplicações
+    subtitle: Gustavo Bellini Bigardi      
     text: Nesta palestra vamos ver como utilizar os serviços cognitivos do Azure, mais especificamente o de detecção e identificação facial para validar questões de segurança como, se o usuário logado corresponde a pessoa utilizando o dispositivo, postura, se há mais pessoas olhando para sua tela, etc.
 
   - image: img/about/1.jpg
     date:  16/11/2018 às 21h
     title: Entendendo os famosos Test Doubles
+    subtitle: Vinícius Bail Alonso
     text: "Muito provavelmente você já precisou \"mocar\" algo enquanto estava escrevendo seus testes. Esse jargão é muito utilizado entre os desenvolvedores de software, porém, qual seria o conceito por trás de utilizar um mock object? Test doubles é um nome genérico para os famosos: dummies, spies, fake, stub e mock. Nessa palestra vamos entender como podemos utilizar cada um deles para tirar proveito de nossos testes."
 
   end1: "#CAPI"
@@ -217,16 +228,16 @@ organization:
   heading: Organização
   subheading: Feito com muio <3 pelos organizadores da Capivara Coders em Curitiba
   members:
-    - name: Bruno Scrok Brunoro
-      role: Mobile e Web Developer
-      img: img/team/1.jpg
-      social-buttons:
-        - icon: fa fa-twitter
-          url: "https://twitter.com/brunosbrunoro" 
-        - icon: fa fa-github
-          url: "https://github.com/brunosbrunoro"
-        - icon: fa fa-linkedin
-          url: "https://www.linkedin.com/in/brunoscrokbrunoro/"
+    # - name: Bruno Scrok Brunoro
+    #   role: Mobile e Web Developer
+    #   img: img/team/1.jpg
+    #   social-buttons:
+    #     - icon: fa fa-twitter
+    #       url: "https://twitter.com/brunosbrunoro" 
+    #     - icon: fa fa-github
+    #       url: "https://github.com/brunosbrunoro"
+    #     - icon: fa fa-linkedin
+    #       url: "https://www.linkedin.com/in/brunoscrokbrunoro/"
         
     - name: Matheus Donizete
       role: Web Developer
